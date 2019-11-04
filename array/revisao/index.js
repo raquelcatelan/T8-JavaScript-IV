@@ -31,12 +31,13 @@ console.log(comidas);
 console.log(comidas.pop());
 console.log(comidas);
 
-//
+////Adiciona um item na primeira posição do array
+// modifica permanentemente o array
 comidas.unshift('Macarrão')
 console.log(comidas);
 
-
-//Push Adiciona um item na ultima posicao do array 
+//Adiciona um item na ultima posição do array
+// modifica permanentemente o array
 comidas.push('Strogonoff')
 console.log(comidas);
 
@@ -47,12 +48,16 @@ comidas.reverse()
 console.log(comidas);
 
 
+
+// faz uma copia simples delimitando o começo e o final da parte que eu quero
+// slice(comeco, final)
 let cortarAlimentos = comidas.slice(1,2)
 console.log(cortarAlimentos);
 console.log(comidas);
 
 
-//Pode remover e adicionar valores ultilizando posicao, indice de apagar e 
+
+//Pode remover e adicionar valores utilizando posicao, indice de apagar, valor para adicionar
 comidas.splice(1 , 0, "Alface")
 console.log(comidas);
 
