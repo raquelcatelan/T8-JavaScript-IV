@@ -99,6 +99,7 @@ let somaNumero = numeros.reduce((esq, dir) => {
 })
 console.log(somaNumero);
 
+console.log('esse é o find');
 
 console.log(numeros);
 console.log(numeros.find(numero => numero ===1))
