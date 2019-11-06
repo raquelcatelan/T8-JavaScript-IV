@@ -50,6 +50,7 @@ document.querySelector('.cards').innerHTML = resultados.map((receita) =>{
 document.querySelector('.button__search').addEventListener('click' , function(){
     let inputValue  = document.querySelector('.input__search').value.toUpperCase()
     let achados  = resultados.filter(receita => {
+         // o meu inputValue está incluso em alguma parte do título OU dos ingredientes.
         return receita.titulo.toUpperCase().includes(inputValue) || receita.ingredientes.toUpperCase().includes(inputValue)
     })
    console.log(achados);

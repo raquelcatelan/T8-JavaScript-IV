@@ -2,6 +2,7 @@ button{
   padding:20px 40px;
   font-size: 24px; 
   margin:20px;
+  border-radius: 5px;
 }
 
 button i{
@@ -13,6 +14,7 @@ button.pequeno{
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 button.grande{
   padding: 100px;
 }
@@ -53,3 +55,24 @@ button.grandao{
   background-color: red;
   border-radius: 5px;
 }
+=======
+button.grande {
+  padding: 100px;
+}
+
+button.medio {
+  padding: 50px;
+}
+
+.verde {
+  background-color: green;
+}
+
+.roxo {
+  background-color: purple
+}
+
+.azul {
+  background-color: blue;
+}
+>>>>>>> upstream/aula2

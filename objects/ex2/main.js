@@ -45,5 +45,14 @@ const avatar2 = new Avatar (users[1].nome , users[1].imagem)
 avatar2.criaAvatar()
 console.log(avatar2);
 
+// users.map((user, index) => {
+//   new Avatar(user).renderComCreate()
+// })
+// document.getElementById('cards-section').insertAdjacentHTML('beforeend', '<br/><br/>')
+
+// users.forEach((user) => {
+//   new Avatar(user).render()
+// })
+
 
 
