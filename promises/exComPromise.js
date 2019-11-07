@@ -35,4 +35,9 @@ getTurma('A').then(alunos => {
 Promise.all([getTurma('A'), getTurma('B'), getTurma('C')]).then(
     turmas => [].concat(...turmas)).then(alunos => alunos.map( aluno => 
         aluno.nome)).then(nomes => console.log(nomes)).catch(e => console.log(e.message))
+<<<<<<< HEAD
 getTurma('D').catch(e => console.log(e.message))
+=======
+getTurma('D').catch(e => console.log(e.message))
+
+>>>>>>> upstream/aula3

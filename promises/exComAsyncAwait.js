@@ -19,10 +19,15 @@ const getTurma = (letra, callback) => {
     })
 
 }
+<<<<<<< HEAD
 
 
 let obterAlunos = async() => {
     const ta = await getTurma("A")
+=======
+let obterAlunos = async() => {
+    const ta = await getTurma('A')
+>>>>>>> upstream/aula3
     const tb = await getTurma('B')
     const tc = await getTurma('C')
     return [].concat(ta, tb, tc)
