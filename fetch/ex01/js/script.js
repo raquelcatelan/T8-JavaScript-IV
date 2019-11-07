@@ -1,7 +1,8 @@
-
+// Fazer o fetch pra ver se carregamos o array de cartas
 const cardSection = document.getElementById('cards-section')
 const errorSection = document.getElementById('error')
 const loading = document.getElementById('spinner')
+// Caso os cards não carreguem, mostraremos isso:
 const placeholderCard = {
     nome: "Carta nao carregada",
     tipo: "Arcano maior",
@@ -43,6 +44,8 @@ function ativaSpinner(){
 }
 
 
+
+//Transformas nosso fetch num async await
 async function carregaCartas(){
     errorSection.innerHTML = ""
     loading.style.display = "block"

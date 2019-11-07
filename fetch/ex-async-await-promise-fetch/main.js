@@ -1,3 +1,9 @@
+// Fazer a chamada usando fetch para pegar uma imagem - OK
+// colocar a imagem criando uma tag img no body
+// lidando com erros
+
+
+
 fetch("rainbow.jpg").then(response => {
     console.log(response)
     return response.blob()
